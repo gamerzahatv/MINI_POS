@@ -58,20 +58,20 @@ port: 3306
 
 Home page
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/gamerzahatv/MINI_POS_TKINER/blob/main/Ex%20photo/home.PNG)
 
 Stockpage
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/gamerzahatv/MINI_POS_TKINER/blob/main/Ex%20photo/stockpage.PNG)
 
 Userpage
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/gamerzahatv/MINI_POS_TKINER/blob/main/Ex%20photo/UserPage.PNG)
 
 Orderpage
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/gamerzahatv/MINI_POS_TKINER/blob/main/Ex%20photo/Orderpage.PNG)
 
 Billpage
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/gamerzahatv/MINI_POS_TKINER/blob/main/Ex%20photo/Billpage.PNG)
