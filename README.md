@@ -56,22 +56,22 @@ port: 3306
 
 ## Screenshots
 
-Home page
+### Home page
 
 ![App Screenshot](https://github.com/gamerzahatv/MINI_POS_TKINER/blob/main/Ex%20photo/home.PNG)
 
-Stockpage
+### Stockpage
 
 ![App Screenshot](https://github.com/gamerzahatv/MINI_POS_TKINER/blob/main/Ex%20photo/stockpage.PNG)
 
-Userpage
+### Userpage
 
 ![App Screenshot](https://github.com/gamerzahatv/MINI_POS_TKINER/blob/main/Ex%20photo/UserPage.PNG)
 
-Orderpage
+### Orderpage
 
 ![App Screenshot](https://github.com/gamerzahatv/MINI_POS_TKINER/blob/main/Ex%20photo/Orderpage.PNG)
 
-Billpage
+### Billpage
 
 ![App Screenshot](https://github.com/gamerzahatv/MINI_POS_TKINER/blob/main/Ex%20photo/Billpage.PNG)
