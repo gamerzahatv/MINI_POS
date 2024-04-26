@@ -11,8 +11,8 @@ from mysql.connector import Error
 #  config database
 config = {
   'user': 'root',
-  'password': '',
-  'host': '127.0.0.1',
+  'password': 'root',
+  'host': 'localhost',
   'database': 'app',
   'port':3306,
   'raise_on_warnings': True
