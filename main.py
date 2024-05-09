@@ -5,7 +5,7 @@ from tkinter import  *
 import mysql.connector
 from time import strftime
 import os 
-from datetime import datetime
+from datetime import datetime, timedelta
 from tkinter.filedialog import asksaveasfile
 from mysql.connector import Error
 #  config database
@@ -14,13 +14,22 @@ config = {
   'password': 'root',
   'host': 'localhost',
   'database': 'app',
-  'port':3306,
+  'port':3307,
   'raise_on_warnings': True
 }
 # DATE   AND  TIME
 def tmnow():
-    now = datetime.now()
+    # Bangkok is UTC+7
+    #bangkok_offset = timedelta(hours=7)
+
+    # Get the current UTC time
+    #now_utc = datetime.utcnow()
+
+    # Apply Bangkok's UTC offset to get the current time in Bangkok
+    #now_bangkok = now_utc + bangkok_offset
+    now = datetime.now() 
     gettime= str (now.strftime("%H:%M:%S") )
+    #gettime = now_bangkok.strftime("%H:%M:%S")
     return gettime
 def daynow():
     now = datetime.now()
@@ -374,7 +383,7 @@ class User_page(tk.Toplevel):
 class Stock_page(tk.Toplevel):
     def __init__(self,stock):
         super().__init__(stock)
-        self.geometry('600x600')
+        self.geometry('705x600')
         self.title('จัดการสินค้า')
         self.resizable(False,False)
        #search
@@ -1066,7 +1075,7 @@ class Order_page(tk.Toplevel):
 class Bill_Page(tk.Toplevel):
     def __init__(self,bill):
         super().__init__(bill)
-        self.geometry('1200x400')
+        self.geometry('1215x400')
         self.title('บิลสินค้า')
         self.resizable(False, False)
 
@@ -1197,7 +1206,7 @@ class Bill_Page(tk.Toplevel):
         #convertlist to str
         string1 ='\n '
         convertlist = string1.join(re)
-        format = f""" \t    ***** LungKang Papaya Is Love SHOP *****  
+        format = f""" \t    ***** CATNIP SHOP *****  
         \n\n  No. \t {ordernum}\t\t\t   Date {nowdate}\n\t\t\t\t\t\t\t\t\t\t\t   Time {ordertime}
         \n  Purchased By {nameuser}\n\n {convertlist} \n\n \t\tTotal payment {payment} Bath 
         \n ***************************************************************************
